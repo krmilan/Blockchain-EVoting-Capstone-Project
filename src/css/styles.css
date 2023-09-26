@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* Reset CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+#logo{
+  background-image: url("logo.png");
+}
+/* Custom Styles */
+.header .name{
+    color: #66FCF1;
+    font-size: 30px;
+    text-align: center;
+}
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-container {
+  /* Set the dimensions and other styles for the container div */
+  width: 200px;
+  height: 100px;
+  position: relative;
+  margin-bottom: 20px; /* Set position to relative to create a reference for the absolute positioning of the logo image */
+}
+.logo-image {
+  /* Set the dimensions and other styles for the logo image */
+  position: absolute; /* Set position to absolute to position the logo image within the container */
+  top: 0; /* Position the image at the top of the container */
+  left: 0; /* Position the image at the left of the container */
+  width: 200px; /* Set the width of the image to 100% to match the width of the container */
+  height: 120px; /* Set the height of the image to 100% to match the height of the container */
+  object-fit: contain; /* Optional: adjust the image fit as needed (e.g., cover, fill) */
+
+}
+.greet{
+    color:#66FCF1;
+    height: 30px;
+    font-size: 27px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin: auto;
+    
+}
+  
+
+body {
+    background-color: #301E67;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin-top: 12vh;
+}
+.main .container {
+    background-color: #5B8FB9;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 10;
+}
+.text-center{
+    color:#66FCF1;
+}
+.text-end{
+  color: red;
+  /* Set the black border on all letters */
+  text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
+}
+.table th{
+    color:#66FCF1;
+
+}
+.table tr{
+  color: white;
+}
+
+#note{
+  color: red;
+  /* Set the black border on all letters */
+  text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
+}
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #5B8FB9; /* Set background color to white */
+    padding: 20px; /* Add padding for spacing */
+    bottom: 0;
+    height: 46px;
+    position: fixed;
+  }
+  
+  .container {
+    max-width: 1200px; /* Set max width for the container */
+    margin: 0 auto; /* Center align the container */
+  }
+  
+  .copyright {
+    color: #66FCF1; /* Set text color to purple */
+    font-size: 14px; /* Set font size for the copyright statement */
+    text-align: center; /* Center align the copyright statement */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:  #1f2833;
+    height: 15vh;
+  }
+  
+  .header-left {
+    /* Set the styles for the left side of the header */
+  }
+  
+  .website-name {
+    color: #66FCF1;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  
+  .header-right {
+    /* Set the styles for the right side of the header */
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: 110px;
+    width: 120px;
+    margin-right: 70px;
+  }
+  
